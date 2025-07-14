@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 float_formatter = "{:.2f}".format
 np.set_printoptions(formatter={'float_kind':float_formatter})
 
-model = load_model("digit_model.h5")
+model = load_model("digit_model4.h5")
 
 def img_to_array(path):
     img = cv2.imread(path, 0)
